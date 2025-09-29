@@ -1,0 +1,123 @@
+/*Tried to copy the properites as much as possible while adding to it a bit.*/
+        .buttons {
+            display: flex;
+            position: absolute;
+            top: 67px;
+            left: 60px;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 135%;
+            letter-spacing: 0%;
+            align-items: center;
+            vertical-align: middle; 
+        }
+
+        .first-button {
+            width: 200px;
+            height: 60px;
+            background-color: #000000;
+            color: #FFFFFF;
+            border: 5px solid black;
+        }
+
+        .second-button {
+            width: 200px;
+            height: 60px;
+            margin-left: 20px;
+            background-color: #FFFFFF;
+            color: #000000;
+            border: 5px solid white;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            position: absolute;
+            top: 191px;
+            left: 60px;
+        }
+
+        .blog-card {
+            position: absolute;
+            width: 270px;
+            height: 436px;
+            background-color: #FFFFFF;
+        }
+        .media {
+            width: 270px;
+            height: 270px;
+            background-color: #000000;
+        }
+
+        .white-square {
+            position: absolute;
+            width: 64px;
+            height: 64px;
+            top: 103px;
+            background-color: #FFFFFF;
+            border-radius: 8px;
+            opacity: 1;
+        }
+
+        .content {
+            position:absolute;
+            width: 270px;
+            height: 166px;
+            top: 270px;
+            left: 103px;
+            background-color: #FFFFFF;
+            color: #000000;
+            font-family: Roboto;
+            opacity: 1;
+        }
+
+        .special-feature {
+            width: 222px;
+            height: 24px;
+            top: 294px;
+            left: 24px;
+            opacity: 1;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+
+        .see-more {
+            width: 67px;
+            height: 20px;
+            top: 392px;
+            left: 24px;
+            opacity: 1;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 136%;
+            letter-spacing: 0%;
+        }
+
+        .pricing-card {
+            position: absolute;
+            width: 270px;
+            height: 420px;
+            top: 191px;
+            left: 378px;
+            background-color: #FFFFFF;
+        }
+
+        .start-now /*Button*/{
+            position: absolute;
+            width: 160px;
+            height: 40px;
+            top: 347px;
+            left: 55px;
+            opacity: 1;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+            border: 1px #000000;
+        }
