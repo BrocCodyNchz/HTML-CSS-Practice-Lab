@@ -119,5 +119,19 @@
             letter-spacing: 0%;
             text-align: center;
             vertical-align: middle;
-            border: 1px #000000;
+            border: 1px solid #000000;
+        }
+        .pricing-icon {
+            width: 54px;
+            height: 54px;
+            top: 29px;
+            left: 108px;
+            opacity: 1;
+            background-color: #000000;
+            border-radius: 50%;
+            align-items: center;
+        }
+
+        .pricing-title {
+            
         }
