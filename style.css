@@ -1,4 +1,11 @@
 /*Tried to copy the properites as much as possible while adding to it a bit.*/
+.buttons-and-cards {
+        width: 1440px;
+        height: 797px;
+        opacity: 1;
+        background-color: #f2f2f2;
+}        
+
         .buttons {
             display: flex;
             position: absolute;
@@ -133,5 +140,85 @@
         }
 
         .pricing-title {
-            
+            width: 40px;
+            height: 24px;
+            top: 92px;
+            left: 115px;
+            opacity: 1;
+            font-family: Roboto;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .pricing-subtitle {
+            width: 194px;
+            height: 32px;
+            top: 120px;
+            left: 38px;
+            opacity: 1;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .pricing-features {
+            width: 193px;
+            height: 100px;
+            top: 182px;
+            left: 39px;
+            opacity: 1;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 34px;
+            letter-spacing: 0%;
+            text-align: center;
+        }
+
+        .square-card {
+            width: 370px;
+            height: 502px;
+            top: 191px;
+            left: 696px;
+            opacity: 1;
+        }
+
+        .square-media {
+            width: 370px;
+            height: 370px;
+            opacity: 1;
+            background-color: #000000;
+        }
+        
+        .square-title {
+            width: 370px;
+            height: 66px;
+            top: 404px;
+            opacity: 1;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 136%;
+            letter-spacing: 0%;
+            color: #000000;
+        }
+
+        .square-subtitle {
+            width: 370px;
+            height: 20px;
+            top: 482px;
+            opacity: 1;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 136%;
+            letter-spacing: 0%;
         }
