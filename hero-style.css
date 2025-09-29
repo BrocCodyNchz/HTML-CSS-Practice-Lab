@@ -1,0 +1,26 @@
+.hero {
+    width: 1440;
+    height: 2180;
+    background-color: #FFFFFF;
+}
+.hero-side {
+    width: 1440;
+    height: 700;
+}
+.side-content {
+    width: 422px;
+    height: 357px;
+    top: 172px;
+    left: 135px;
+}
+.side-title {
+    width: 399;
+    height: 132;
+    top: 172px;
+    left: 135px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
