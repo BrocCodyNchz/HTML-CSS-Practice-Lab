@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody's HTML-CSS Practice Lab</title>
+    <style> /*Tried to copy the properites as much as possible while adding to it a bit.*/
+        .buttons {
+            display: flex;
+            position: absolute;
+            top: 67px;
+            left: 60px;
+            font-family: Roboto;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 135%;
+            letter-spacing: 0%;
+            align-items: center;
+            vertical-align: middle; 
+        }
+
+        .first-button {
+            width: 200px;
+            height: 60px;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #FFFFFF;
+            border: black;
+            border-radius: 5px;
+        }
+
+        .second-button {
+            width: 200px;
+            height: 60px;
+            margin-left: 20px;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+            color: #000000;
+            border: white;
+            border-radius: 5px;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            position: absolute;
+            top: 191px;
+            left: 60px;
+        }
+
+        .blog-card {
+            position: absolute;
+            width: 270px;
+            height: 436px;
+            background-color: #FFFFFF;
+        }
+        .media {
+            width: 270px;
+            height: 270px;
+            background-color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <div class="buttons">
+        <button class="first-button">See More</button>
+        <button class="second-button">See More</button>
+    </div>
+
+    <div class="card-container">
+        <div class="blog-card">
+            <div class="media"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
